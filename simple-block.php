@@ -51,19 +51,6 @@ function gutenberg_custom_blocks() {
 			'editor_script' => 'cg-block-editor-js',
 		)
 	);
-//	if ( function_exists( 'wp_set_script_translations' ) ) {
-//		/**
-//		 * Sets translated strings for the block script.
-//		 */
-//		wp_set_script_translations( 'sg-block-editor-js', 'sg-blocks' );
-//	}
-
 }
 
 add_action( 'init', 'gutenberg_custom_blocks' );
-
-//function sg_load_textdomain() {
-//	load_plugin_textdomain( 'sg-blocks', false, CB_PLUGIN_DIR_PATH . 'languages' );
-//}
-//
-//add_action( 'init', 'sg_load_textdomain' );
